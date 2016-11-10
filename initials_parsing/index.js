@@ -31,11 +31,6 @@ export default class InitialsTransformer
     str = _.upperFirst(str);
     return str;
   };
-  //test strings like 'иГоРь аЛексАндРовиЧ сУвороВ'
-  testWrongCapitals(string)
-  {
-
-  }
   //regular expression test for capital letters in array
   testCapitalInitials()
   {
